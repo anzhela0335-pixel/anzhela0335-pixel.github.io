@@ -3,7 +3,7 @@
   'use strict';
   var T = window.typo || function (s) { return s; };
 
-  function fmt(n) { return 'от ' + n.toLocaleString('ru-RU') + ' ₽'; }
+  function fmt(n) { return 'от\u00A0' + n.toLocaleString('ru-RU') + '\u00A0₽'; }
   function esc(s) {
     return String(s).replace(/[&<>"]/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
@@ -134,7 +134,7 @@
       ? list.map(productCard).join('')
       : '<p class="note-demo">По вашему запросу ничего не найдено — попробуйте изменить фильтры.</p>';
     document.getElementById('found').textContent =
-      'Позиции выборки: показано ' + list.length + ' из ' + PRODUCTS.length;
+      'Позиции выборки: показано\u00A0' + list.length + ' из\u00A0' + PRODUCTS.length;
     revealScan();
   }
 
