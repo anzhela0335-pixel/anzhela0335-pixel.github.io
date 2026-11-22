@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>МАРТдекор&nbsp;— анализ и&nbsp;предложение по&nbsp;сайту</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Роли цветов постоянные, значения — под клиента: акцент из логотипа или обложки группы */
+:root{
+  --sage:#51373b; --sage-dark:#382629; --sage-ink:#51373b; --gold:#9a6a2f; --mint:#e8e4df;
+  --bg:#faf8f7; --paper:#fff; --ink:#26211f; --muted:#69625d; --line:#e3deda; --tint:#f1e9ea; --warn:#fbf3e2;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.65 Manrope,system-ui,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:0 28px}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.15;margin:0}
+h1{font-size:46px;margin-bottom:16px}
+h2{font-size:32px;margin:0 0 6px}
+h3{font-size:22px;margin:0 0 6px}
+p{margin:11px 0}
+.sub{color:var(--muted);font-size:14.5px}
+p.sub{max-width:72ch}
+header{background:var(--sage-dark);color:#fff;padding:56px 0 48px}
+header .eyebrow{letter-spacing:3.4px;text-transform:uppercase;font-size:12px;color:var(--mint);margin-bottom:18px}
+header h1{color:#fff;max-width:24ch}
+header p{color:#E4E9E1;max-width:64ch}
+header .sub{color:#AEB9AE;margin-top:20px}
+header a{color:#E4E9E1}
+section{padding:46px 0 6px}
+.sec-num{display:block;width:max-content;font-size:12px;letter-spacing:2.6px;text-transform:uppercase;color:var(--sage);border-bottom:2px solid var(--sage);padding-bottom:5px;margin-bottom:16px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:22px 24px;margin:14px 0}
+.card .n{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:700;color:var(--sage);line-height:1;margin-bottom:6px}
+.grid.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:760px){.grid.two{grid-template-columns:1fr} h1{font-size:36px}}
+.adv{list-style:none;padding:0;margin:14px 0}
+.adv li{padding:11px 0 11px 26px;border-bottom:1px solid var(--line);position:relative}
+.adv li:before{content:"";position:absolute;left:4px;top:21px;width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.adv li:last-child{border:0}
+.why{background:var(--tint);border-left:3px solid var(--sage);border-radius:0 9px 9px 0;padding:11px 16px;margin-top:12px;font-size:15.5px}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:18px 22px;margin:12px 0}
+.tag{display:inline-block;background:var(--tint);color:var(--sage-ink);font-size:12.5px;letter-spacing:.4px;padding:3px 11px;border-radius:999px;margin-bottom:8px}
+.src{color:var(--muted);font-size:14px;margin-top:2px}
+.note{background:var(--warn);border-radius:12px;padding:16px 20px;margin:18px 0;font-size:15.5px}
+.note strong{color:#7A5A22}
+ol.tasks{padding-left:22px}
+ol.tasks li{margin:12px 0}
+.cta{background:var(--sage-dark);color:#fff;border-radius:16px;padding:34px;text-align:center;margin:22px 0}
+.cta h3{color:#fff;font-size:28px}
+.cta a.btn{display:inline-block;background:var(--mint);color:var(--sage-dark);padding:14px 30px;border-radius:999px;text-decoration:none;font-weight:700;margin-top:14px}
+.cta .url{display:block;margin-top:13px;color:#D6DED4;font-size:15px;word-break:break-all}
+.cta p{color:#DCE3DA;max-width:56ch;margin:0 auto}
+.offer{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:22px 24px;margin:14px 0}
+.offer-main{border:2px solid var(--sage);background:#FAFCF8}
+.badge{display:inline-block;background:var(--sage);color:#fff;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;padding:3px 11px;border-radius:6px;margin-bottom:9px}
+blockquote{margin:14px 0;padding:14px 20px;background:var(--paper);border-left:3px solid var(--gold);border-radius:0 9px 9px 0;font-style:italic;color:#353B36}
+footer{margin-top:56px;padding:30px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer p{max-width:70ch}
+footer a{color:var(--sage-dark)}
+@media print{
+  body{background:#fff;font-size:11.5pt}
+  .wrap{max-width:100%;padding:0 14mm}
+  header{padding:16mm 0 11mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  section{padding:7mm 0 0}
+  h2{margin-top:2mm}
+  .adv li{padding:7px 0 7px 24px}
+  p{margin:8px 0}
+  .card,.seg,.offer,.cta,.note,.why,blockquote{page-break-inside:avoid;break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  h2,h3,.sec-num{page-break-after:avoid;break-after:avoid}
+  .card,.seg,.offer{padding:16px 20px;margin:10px 0}
+  .why{margin-top:9px;padding:9px 14px}
+  .cta{padding:24px;margin:16px 0}
+  footer{margin-top:28px;padding:18px 0 20px}
+  h1{font-size:28pt}h2{font-size:20pt}h3{font-size:14pt}
+  a{color:inherit;text-decoration:none}
+  @page{margin:0}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Анализ и&nbsp;предложение · Студия Юлии Титовой</div>
+    <h1>МАРТдекор: разбор группы, конкурентов и&nbsp;предложение по&nbsp;сайту</h1>
+    <p>Здравствуйте! Перед&nbsp;тем&nbsp;как&nbsp;что-то предлагать, я&nbsp;разобрала вашу группу ВКонтакте&nbsp;— 169 постов за&nbsp;три года, цены, условия доставки и&nbsp;оплаты,&nbsp;— и&nbsp;оба ваших сайта: martdecor.ru и&nbsp;каталог martdecor.online на&nbsp;84&nbsp;797 позиций. Отдельно я&nbsp;специально попробовала открыть сайты пяти ваших конкурентов как&nbsp;обычный человек из&nbsp;поиска и&nbsp;посмотрела, как&nbsp;вас видно на&nbsp;Яндекс Картах. Ниже&nbsp;— что&nbsp;я&nbsp;увидела и&nbsp;что&nbsp;предлагаю сделать.</p>
+    <p class="sub">Источники: сообщество <a href="https://vk.ru/martdecoronline">vk.ru/martdecoronline</a>, сайты martdecor.ru и&nbsp;martdecor.online, карточка на&nbsp;Яндекс Картах, сайты конкурентов. Данные собраны 22 ноября 2026 года.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section>
+  <span class="sec-num">01 · Главные выводы</span>
+  <h2>Пять вещей, которые я&nbsp;увидела</h2>
+  <div class="card">
+    <div class="n">1</div>
+    <h3>В&nbsp;нише нет&nbsp;сильного сайта «всё для&nbsp;стен»&nbsp;— окно&nbsp;свободно</h3>
+    <p>Я&nbsp;проверила пятерых конкурентов в&nbsp;Ростове: у&nbsp;двоих сайты из&nbsp;поиска не&nbsp;открылись совсем, у&nbsp;сети «Мир обоев» на&nbsp;главной висит объявление, что&nbsp;сайт «ещё&nbsp;дорабатывается», у&nbsp;самого близкого по&nbsp;профилю «Декоратора» на&nbsp;сайте почти нет&nbsp;цен. Никто в&nbsp;городе не&nbsp;собрал обои, фрески, панели, краски и&nbsp;лепнину в&nbsp;одно понятное предложение.</p>
+  </div>
+  <div class="card">
+    <div class="n">2</div>
+    <h3>Ваш&nbsp;рейтинг 5,0 выше всех конкурентов&nbsp;— и&nbsp;он&nbsp;почти не&nbsp;работает</h3>
+    <p>На&nbsp;Яндекс Картах у&nbsp;МАРТдекора 5,0 из&nbsp;5: 36 оценок и&nbsp;30 отзывов. У&nbsp;«Декоратора» отзывов на&nbsp;агрегаторах нет&nbsp;вовсе, у&nbsp;«Мира обоев» оценки 4,6–5,0 размазаны по&nbsp;четырём разным точкам. Но&nbsp;на&nbsp;вашем сайте рейтинг и&nbsp;отзывы покупателей спрятаны в&nbsp;самом низу главной&nbsp;страницы.</p>
+  </div>
+  <div class="card">
+    <div class="n">3</div>
+    <h3>Каталог на&nbsp;84&nbsp;797 позиций мешает себе продавать</h3>
+    <p>Такой каталог&nbsp;— сила, но&nbsp;вход в&nbsp;него один: список разделов. Нет&nbsp;навигации по&nbsp;задаче («стена в&nbsp;детскую», «панели под&nbsp;покраску») и&nbsp;по&nbsp;стилю интерьера&nbsp;— покупатель с&nbsp;картинкой из&nbsp;интернета должен пройти весь&nbsp;каталог сам. А&nbsp;ваша главная услуга «подбор всех материалов для&nbsp;стен за&nbsp;6 часов» на&nbsp;сайте почти не&nbsp;видна.</p>
+  </div>
+  <div class="card">
+    <div class="n">4</div>
+    <h3>Главные услуги существуют только в&nbsp;постах ВКонтакте</h3>
+    <p>Выезд с&nbsp;образцами на&nbsp;объект, цветопробы и&nbsp;коррекция цвета обоев, ланчи для&nbsp;дизайнеров каждую среду&nbsp;— всё это&nbsp;вы&nbsp;реально делаете, но&nbsp;на&nbsp;сайте эти&nbsp;услуги не&nbsp;собраны и&nbsp;не&nbsp;оформлены как&nbsp;предложение. Тот,&nbsp;кто не&nbsp;читает группу, о&nbsp;них просто не&nbsp;узнает.</p>
+  </div>
+  <div class="card">
+    <div class="n">5</div>
+    <h3>Двенадцать отзывов дизайнеров лежат без&nbsp;дела</h3>
+    <p>На&nbsp;martdecor.online опубликованы дословные отзывы дизайнеров и&nbsp;мастеров&nbsp;— Череватенко, Чекалина, Костенич и&nbsp;другие. Именно дизайнеры приводят крупные проектные заказы, но&nbsp;сейчас эти&nbsp;отзывы стоят внизу главной&nbsp;страницы и&nbsp;ни&nbsp;на&nbsp;что&nbsp;не&nbsp;влияют.</p>
+  </div>
+</section>
+
+<section>
+  <span class="sec-num">02 · Ваши преимущества</span>
+  <h2>Что&nbsp;у&nbsp;вас уже&nbsp;сильного</h2>
+  <p class="sub">Это&nbsp;не&nbsp;мои придумки&nbsp;— всё взято из&nbsp;вашей группы и&nbsp;ваших постов.</p>
+  <ul class="adv">
+    <li><b>Официальный дилер, цены от&nbsp;производителя.</b> «⚜️ официальный дилер ⚜️ цены от&nbsp;производителя ⚜️ складская программа»&nbsp;— так&nbsp;вы&nbsp;сами пишете о&nbsp;салоне в&nbsp;группе.</li>
+    <li><b>7 лет и&nbsp;более 3000 проектов.</b> «Реализовали более 3000 самых разных проектов&nbsp;— от&nbsp;небольших квартир до&nbsp;масштабных коммерческих пространств».</li>
+    <li><b>Более 90 брендов со&nbsp;всего мира.</b> От&nbsp;Sirpi и&nbsp;Missoni Home до&nbsp;каменного шпона и&nbsp;гипсовых панно ручной&nbsp;работы.</li>
+    <li><b>Комплектация проекта за&nbsp;6 часов.</b> «Подбор всех материалов для&nbsp;стен займет не&nbsp;более 6 часов»&nbsp;— обещание с&nbsp;вашего сайта, и&nbsp;это&nbsp;сильнейший оффер в&nbsp;нише.</li>
+    <li><b>Примерка на&nbsp;объекте.</b> «Даём возможность „потрогать“ будущий интерьер: взять лепной декор и&nbsp;3D-панели Orac на&nbsp;примерку прямо на&nbsp;объект»&nbsp;— такого не&nbsp;заявляет никто из&nbsp;конкурентов.</li>
+    <li><b>Цветопробы и&nbsp;коррекция цвета.</b> «Возможно заказать цветопробу, отредактировать цвет, убрать или&nbsp;добавить элементы»&nbsp;— обои подгоняются под&nbsp;интерьер, а&nbsp;не&nbsp;наоборот.</li>
+    <li><b>Ланчи для&nbsp;дизайнеров каждую среду.</b> Профессиональные ланчи в&nbsp;14:00 и&nbsp;семинары с&nbsp;представителями брендов&nbsp;— вокруг салона уже&nbsp;собрано&nbsp;сообщество.</li>
+    <li><b>Рейтинг 5,0 на&nbsp;Яндекс Картах.</b> 36 оценок и&nbsp;30 отзывов&nbsp;— выше всех локальных конкурентов с&nbsp;сопоставимой выборкой.</li>
+    <li><b>Салон в&nbsp;дизайн-центре WEST.</b> Образцы можно потрогать вживую, работает партнёрство с&nbsp;WEST LAB.</li>
+    <li><b>Каталог на&nbsp;84&nbsp;797 позиций.</b> Самый широкий ассортимент ниши в&nbsp;городе: фрески&nbsp;— 9&nbsp;625 позиций, 3D-покрытия&nbsp;— 364, краски&nbsp;— 146, каменный шпон&nbsp;— 111.</li>
+  </ul>
+</section>
+
+<section>
+  <span class="sec-num">03 · Сейчас</span>
+  <h2>Что&nbsp;работает и&nbsp;что&nbsp;провисает</h2>
+  <div class="grid two">
+    <div class="card">
+      <h3>Работает</h3>
+      <ul class="adv">
+        <li>Группа ВКонтакте: 169 постов, регулярные новинки и&nbsp;разборы материалов&nbsp;— пост про&nbsp;акустические панели набрал 18&nbsp;975 просмотров.</li>
+        <li>Сайт-каталог с&nbsp;ценами и&nbsp;корзиной: 84&nbsp;797 позиций, заказ через&nbsp;менеджера.</li>
+        <li>Репутация: 5,0 на&nbsp;Яндекс Картах, дословные отзывы дизайнеров и&nbsp;мастеров.</li>
+        <li>Понятная схема продажи: салон, телефон, директ&nbsp;— без&nbsp;сложных&nbsp;форм.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Провисает</h3>
+      <ul class="adv">
+        <li>Сайт есть, но&nbsp;он&nbsp;не&nbsp;продаёт ваши услуги: выезд с&nbsp;образцами, цветопробы, комплектация за&nbsp;6 часов и&nbsp;ланчи живут только в&nbsp;постах&nbsp;группы.</li>
+        <li>Каталог устроен как&nbsp;склад: 84&nbsp;797 позиций без&nbsp;навигации по&nbsp;задаче и&nbsp;стилю&nbsp;— покупатель с&nbsp;картинкой из&nbsp;интернета теряется.</li>
+        <li>Рейтинг 5,0 и&nbsp;отзывы спрятаны внизу главной и&nbsp;не&nbsp;работают как&nbsp;аргумент.</li>
+        <li>Страница каталога открывается медленно&nbsp;— у&nbsp;меня она&nbsp;дважды уходила в&nbsp;таймаут.</li>
+        <li>Для&nbsp;дизайнеров нет&nbsp;отдельного раздела&nbsp;— а&nbsp;именно они&nbsp;приводят проектные заказы.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <span class="sec-num">04 · Конкуренты</span>
+  <h2>Где&nbsp;ещё&nbsp;в&nbsp;Ростове покупают материалы для&nbsp;стен</h2>
+  <p>Я&nbsp;посмотрела пять площадок, которые находятся по&nbsp;запросам «обои», «фрески», «лепнина» и&nbsp;«стеновые панели» в&nbsp;Ростове-на-Дону: есть&nbsp;ли сайт, цены, доставка и&nbsp;что&nbsp;с&nbsp;отзывами на&nbsp;картах.</p>
+  <div class="card">
+    <span class="tag">сеть, 4 точки в&nbsp;городе</span>
+    <h3>«Мир обоев», Стачки · Космонавтов · Фурмановская · Горсоветская</h3>
+    <p class="src">miroboev-shop.ru · на&nbsp;Яндекс Картах 4,6–5,0 (от&nbsp;208 до&nbsp;1594 оценок по&nbsp;разным точкам)</p>
+    <p>Полноценный интернет-магазин обоев: цены, корзина, рассрочка, подарочные карты, акции, раздел «Дизайнерам». Но&nbsp;на&nbsp;главной висит плашка: «Сайт работает в&nbsp;обновлённом формате и&nbsp;ещё&nbsp;дорабатывается. Некоторые данные могут отображаться некорректно».</p>
+    <div class="why">Сильный массовый конкурент по&nbsp;обоям, но&nbsp;без&nbsp;ваших услуг: ни&nbsp;комплектации проектов, ни&nbsp;выезда с&nbsp;образцами, ни&nbsp;цветопроб&nbsp;— и&nbsp;с&nbsp;недоделанным сайтом. Ваши глубина ассортимента и&nbsp;сервис выше, осталось их&nbsp;показать.</div>
+  </div>
+  <div class="card">
+    <span class="tag">самый близкий по&nbsp;профилю</span>
+    <h3>Салон «Декоратор», ул.&nbsp;Таганрогская, 144/1</h3>
+    <p class="src">decorator-don.ru · отзывов на&nbsp;агрегаторах нет</p>
+    <p>Тот&nbsp;же профиль: фрески, бесшовные обои, краски, стеновые панели, каменный шпон, лепнина. Но&nbsp;сайт старый, цен на&nbsp;главной почти нет&nbsp;— я&nbsp;нашла одну, услуги вроде выезда с&nbsp;образцами не&nbsp;заявлены.</p>
+    <div class="why">Прямой конкурент&nbsp;— и&nbsp;при&nbsp;этом без&nbsp;цен и&nbsp;без&nbsp;отзывов на&nbsp;сайте. Ваши цены от&nbsp;производителя и&nbsp;рейтинг 5,0&nbsp;— готовое преимущество, его&nbsp;нужно просто вынести на&nbsp;видное место.</div>
+  </div>
+  <div class="card">
+    <span class="tag">федеральный, без&nbsp;салона</span>
+    <h3>«ADecore», интернет-магазин&nbsp;лепнины</h3>
+    <p class="src">rostov.adecore.ru · только доставка, офис в&nbsp;Екатеринбурге</p>
+    <p>Полноценный онлайн-магазин: цены, личный кабинет, промокод на&nbsp;первую покупку, страницы оплаты и&nbsp;возврата. Но&nbsp;ассортимент&nbsp;— только лепнина из&nbsp;полиуретана: ни&nbsp;обоев, ни&nbsp;фресок, ни&nbsp;красок, и&nbsp;потрогать образцы в&nbsp;Ростове негде.</p>
+    <div class="why">Он&nbsp;выигрывает только в&nbsp;одном узком сегменте. Ваш&nbsp;ответ&nbsp;— «все&nbsp;материалы для&nbsp;стен в&nbsp;одном месте» плюс салон в&nbsp;ДЦ WEST, где&nbsp;всё можно увидеть и&nbsp;потрогать вживую.</div>
+  </div>
+  <div class="card">
+    <span class="tag">лепнина и&nbsp;панели</span>
+    <h3>«Ростов Декор», ул.&nbsp;Шолохова, 9</h3>
+    <p class="src">rostov-decor.ru · сайт из&nbsp;поиска не&nbsp;открылся</p>
+    <p>«Более 15 лет торгуем лепниной из&nbsp;полиуретана», реечные и&nbsp;акустические панели, панели под&nbsp;покраску. Сайт у&nbsp;меня не&nbsp;открылся&nbsp;— цены, оплату и&nbsp;доставку проверить не&nbsp;удалось.</p>
+    <div class="why">Узкий профиль и&nbsp;недоступный сайт. Часть его&nbsp;покупателей ищет именно «сайт с&nbsp;ценами»&nbsp;— и&nbsp;может прийти к&nbsp;вам.</div>
+  </div>
+  <div class="card">
+    <span class="tag">гипсовые панели на&nbsp;заказ</span>
+    <h3>«Джем Декор»</h3>
+    <p class="src">rostov.djemdecor.ru · сайт из&nbsp;поиска не&nbsp;открылся</p>
+    <p>«Самый большой выбор гипсовых панелей: под&nbsp;окраску, в&nbsp;плёнке ПВХ, с&nbsp;интегрированной подсветкой; изготовим любой дизайн по&nbsp;вашему проекту». Доставка по&nbsp;России, самовывоз в&nbsp;Ростове. Сайт у&nbsp;меня не&nbsp;открылся&nbsp;— цены проверить не&nbsp;удалось.</p>
+    <div class="why">Силён в&nbsp;гипсовых панелях и&nbsp;изготовлении на&nbsp;заказ, но&nbsp;ассортимент заметно уже&nbsp;вашего&nbsp;— без&nbsp;обоев, фресок и&nbsp;красок.</div>
+  </div>
+  <div class="note"><strong>Кто на&nbsp;самом деле забирает поиск.</strong> По&nbsp;запросам «обои Ростов-на-Дону», «фрески купить», «3D-панели для&nbsp;стен» первые места в&nbsp;выдаче занимают маркетплейсы, агрегаторы и&nbsp;Яндекс Карты. Локальных сайтов с&nbsp;ценами в&nbsp;верхней выдаче почти нет.&nbsp;Это&nbsp;и&nbsp;есть свободное окно: сайт, который сразу отвечает «что&nbsp;есть, сколько стоит и&nbsp;где&nbsp;посмотреть вживую», заберёт этот&nbsp;поиск себе.</div>
+</section>
+
+<section>
+  <span class="sec-num">05 · Покупатели</span>
+  <h2>Кто к&nbsp;вам приходит</h2>
+  <div class="seg"><span class="tag">приводят проекты</span>
+    <h3>Дизайнеры интерьеров</h3>
+    <p>Их&nbsp;вопрос: «Что&nbsp;нового и&nbsp;что&nbsp;я&nbsp;могу быстро взять в&nbsp;проект?» Они&nbsp;ходят на&nbsp;ваши ланчи по&nbsp;средам, им нужны новинки, примерка на&nbsp;объекте и&nbsp;быстрая комплектация&nbsp;— и&nbsp;отдельное место на&nbsp;сайте, а&nbsp;не&nbsp;лента постов.</p></div>
+  <div class="seg"><span class="tag">главный чек</span>
+    <h3>Частные заказчики с&nbsp;ремонтом</h3>
+    <p>Приходят с&nbsp;картинкой из&nbsp;интернета: «Хочу такую стену&nbsp;— из&nbsp;чего её&nbsp;собрать и&nbsp;сколько это&nbsp;стоит?» Им нужны подборки по&nbsp;стилям, цены&nbsp;«от» и&nbsp;понятный маршрут до&nbsp;салона.</p></div>
+  <div class="seg"><span class="tag">высокий чек</span>
+    <h3>Коммерческие объекты&nbsp;— кафе, офисы, салоны</h3>
+    <p>Их&nbsp;вопрос&nbsp;— износостойкость и&nbsp;сроки. Не&nbsp;случайно ваш&nbsp;самый просматриваемый пост&nbsp;— про&nbsp;акустические панели (18&nbsp;975 просмотров): это&nbsp;запрос именно коммерческой&nbsp;аудитории.</p></div>
+  <div class="seg"><span class="tag">по&nbsp;всей России</span>
+    <h3>Покупатели из&nbsp;других&nbsp;городов</h3>
+    <p>«Как&nbsp;заказать не&nbsp;из&nbsp;Ростова и&nbsp;сколько ждать?» Им нужны на&nbsp;виду: поставка 7–14 дней, доставка транспортными компаниями, счёт с&nbsp;QR-кодом для&nbsp;оплаты.</p></div>
+  <div class="seg"><span class="tag">канал рекомендаций</span>
+    <h3>Мастера и&nbsp;монтажные&nbsp;бригады</h3>
+    <p>Они&nbsp;советуют материалы своим заказчикам. Их&nbsp;дословные отзывы уже&nbsp;есть на&nbsp;вашем сайте&nbsp;— осталось поставить их&nbsp;так,&nbsp;чтобы&nbsp;их&nbsp;читали.</p></div>
+</section>
+
+<section>
+  <span class="sec-num">06 · Логика сайта</span>
+  <h2>Что&nbsp;должен решать сайт</h2>
+  <ol class="tasks">
+    <li><b>Принимать заявку «у&nbsp;меня картинка&nbsp;— соберите так».</b> Звонок или&nbsp;заявка с&nbsp;первого экрана, дальше работает ваша комплектация проекта за&nbsp;6 часов.</li>
+    <li><b>Отвечать на&nbsp;вопрос цены до&nbsp;звонка.</b> Цены «от» по&nbsp;разделам и&nbsp;сроки поставки 7–14 дней&nbsp;— на&nbsp;странице, а&nbsp;не&nbsp;по&nbsp;телефону.</li>
+    <li><b>Продавать услуги, а&nbsp;не&nbsp;только товары.</b> Выезд с&nbsp;образцами, цветопробы, ланчи для&nbsp;дизайнеров&nbsp;— отдельными карточками с&nbsp;кнопкой, а&nbsp;не&nbsp;архивом постов.</li>
+    <li><b>Вести по&nbsp;каталогу от&nbsp;задачи, а&nbsp;не&nbsp;от&nbsp;склада.</b> Подборки по&nbsp;стилю интерьера и&nbsp;помещению поверх 84&nbsp;797 позиций.</li>
+    <li><b>Доказывать репутацией с&nbsp;первого экрана.</b> Рейтинг 5,0 и&nbsp;дословные отзывы дизайнеров&nbsp;— в&nbsp;начало страницы, а&nbsp;не&nbsp;в&nbsp;подвал.</li>
+    <li><b>Быть ссылкой для&nbsp;пересылки.</b> Менеджер или&nbsp;дизайнер отправляет клиенту одну ссылку вместо десятка скриншотов из&nbsp;группы.</li>
+  </ol>
+</section>
+
+<section>
+  <span class="sec-num">07 · Прототип</span>
+  <h2>Чтобы&nbsp;не&nbsp;объяснять&nbsp;словами</h2>
+  <p>Я&nbsp;собрала прототип сайта на&nbsp;данных вашей группы и&nbsp;сайтов: главная страница, каталог с&nbsp;поиском и&nbsp;фильтрами, карточка товара, статьи-советы из&nbsp;ваших постов и&nbsp;отдельный раздел для&nbsp;дизайнеров. Внутри&nbsp;— реальные позиции с&nbsp;ценами на&nbsp;22 ноября, рейтинг 5,0 и&nbsp;отзывы, карта с&nbsp;адресом салона и&nbsp;режимом работы.</p>
+  <p>Прототип показывает, как&nbsp;сайт отвечает на&nbsp;вопросы из&nbsp;предыдущих разделов: цены и&nbsp;сроки на&nbsp;виду, услуги оформлены как&nbsp;предложения, репутация работает с&nbsp;первого экрана. Дальше проще один раз открыть и&nbsp;посмотреть самому.</p>
+  <div class="cta">
+    <h3>Прототип сайта&nbsp;МАРТдекор</h3>
+    <p>Открывается с&nbsp;компьютера и&nbsp;телефона, регистрация не&nbsp;нужна.</p>
+    <a class="btn" href="https://anzhela0335-pixel.github.io/martdecor/">Открыть прототип</a>
+    <span class="url">anzhela0335-pixel.github.io/martdecor</span>
+  </div>
+  <p class="sub">Честно: вместо фотографий пока заглушки&nbsp;— поставим ваши снимки. Наличие товаров показано для&nbsp;примера, часть цен уточняется. Кнопки ничего не&nbsp;отправляют&nbsp;— это&nbsp;демонстрация, а&nbsp;не&nbsp;готовый сайт.</p>
+</section>
+
+<section>
+  <span class="sec-num">08 · Чем&nbsp;зацепить покупателя</span>
+  <h2>Варианты, из&nbsp;которых можно выбрать</h2>
+  <div class="offer offer-main">
+    <span class="badge">заложено в&nbsp;прототип</span>
+    <h3>А.&nbsp;«Пришлите картинку&nbsp;— соберём все&nbsp;материалы для&nbsp;стен за&nbsp;6 часов»</h3>
+    <p>Ваше&nbsp;же обещание с&nbsp;martdecor.ru, вынесенное в&nbsp;центр сайта: посетитель присылает картинку, проект или&nbsp;чертёж, менеджер возвращает подборку и&nbsp;счёт. Опирается на&nbsp;то,&nbsp;что&nbsp;у&nbsp;вас уже&nbsp;есть: 90+ брендов, складская программа и&nbsp;менеджер-комплектатор. Это&nbsp;самый короткий путь от&nbsp;интереса к&nbsp;заявке.</p>
+  </div>
+  <div class="offer">
+    <h3>Б. Раздел «Дизайнерам» с&nbsp;записью на&nbsp;ланч</h3>
+    <p>Ланчи по&nbsp;средам в&nbsp;14:00 уже&nbsp;идут и&nbsp;собирают профессиональную аудиторию. Отдельная страница с&nbsp;программой и&nbsp;записью по&nbsp;телефону превращает офлайн-привычку в&nbsp;постоянный канал заявок от&nbsp;тех, кто приводит проектные заказы.</p>
+  </div>
+  <div class="offer">
+    <h3>В.&nbsp;«Примерка на&nbsp;объекте» как&nbsp;отдельная услуга</h3>
+    <p>Выезд с&nbsp;образцами лепнины и&nbsp;3D-панелей вы&nbsp;уже&nbsp;делаете&nbsp;— и&nbsp;этого не&nbsp;заявляет ни&nbsp;один конкурент в&nbsp;городе. Оформленная кнопкой на&nbsp;сайте, услуга снимает главный страх покупателя: «а&nbsp;как&nbsp;это&nbsp;будет смотреться у&nbsp;меня».</p>
+  </div>
+  <div class="offer">
+    <h3>Г. Подборки по&nbsp;стилям&nbsp;интерьера</h3>
+    <p>Четыре ходовых стиля и&nbsp;материалы под&nbsp;них&nbsp;— в&nbsp;прототипе уже&nbsp;собрано. Это&nbsp;ловит тех, кто приходит не&nbsp;за&nbsp;«каталогом на&nbsp;84&nbsp;797 позиций», а&nbsp;с&nbsp;готовой картинкой желаемого&nbsp;интерьера.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="padding:0">
+    <p>Данные собраны 22 ноября 2026 года: сообщество <a href="https://vk.ru/martdecoronline">vk.ru/martdecoronline</a>, сайты martdecor.ru и&nbsp;martdecor.online, карточка на&nbsp;Яндекс Картах, сайты конкурентов: miroboev-shop.ru, decorator-don.ru, rostov.adecore.ru, rostov-decor.ru, rostov.djemdecor.ru.</p>
+    <p><b>Студия Юлии Титовой</b> — разработка сайтов для&nbsp;малого бизнеса. Прототип: anzhela0335-pixel.github.io/martdecor · PDF-версия этого документа придёт отдельным файлом в&nbsp;переписке</p>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
