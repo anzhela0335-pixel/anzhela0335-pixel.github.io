@@ -1,1 +1,94 @@
-__CATALOG__
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Каталог — МАРТдекор</title>
+<meta name="description" content="Каталог интерьерного салона МАРТдекор: обои, фрески, 3D-панели, краски, каменный шпон, бамбуковые панели.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.35.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="index.html">МАРТдекор<small>интерьерный салон · Ростов-на-Дону</small></a>
+    <nav class="main">
+      <a href="catalog.html">Каталог</a>
+      <a href="index.html#why">Почему мы</a>
+      <a href="index.html#articles">Советы</a>
+      <a href="index.html#contacts">Контакты</a>
+    </nav>
+    <a class="header-phone" href="tel:+79094209420">+7 (909) 420‑94‑20</a>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Каталог</div>
+      <h2>Подобрать материалы</h2>
+      <p>Выборка для&nbsp;прототипа: по&nbsp;2–4 позиции на&nbsp;раздел, с&nbsp;реальными ценами на&nbsp;22.11.2026 и&nbsp;источником у&nbsp;каждой. Наличие показано для&nbsp;примера.</p>
+    </div>
+
+    <div class="chips" id="chips"></div>
+
+    <div class="filters">
+      <div>
+        <label for="f-search">Поиск по&nbsp;названию</label>
+        <input type="search" id="f-search" placeholder="Например: шпон, фреска…">
+      </div>
+      <div>
+        <label for="f-max">Цена до</label>
+        <select id="f-max">
+          <option value="0">любая</option>
+          <option value="5000">до&nbsp;5&nbsp;000&nbsp;₽</option>
+          <option value="8000">до&nbsp;8&nbsp;000&nbsp;₽</option>
+          <option value="20000">до&nbsp;20&nbsp;000&nbsp;₽</option>
+          <option value="30000">до&nbsp;30&nbsp;000&nbsp;₽</option>
+        </select>
+      </div>
+      <div>
+        <label for="f-stock">&nbsp;</label>
+        <label style="font-size:14px;font-weight:500;color:var(--ink)"><input type="checkbox" id="f-stock" style="min-width:auto;margin-right:6px">только в&nbsp;наличии</label>
+      </div>
+    </div>
+
+    <p class="note-demo" id="found"></p>
+    <div class="grid grid-3" id="catalog-grid" style="margin-top:18px"></div>
+    <p class="note-demo">Не&nbsp;нашли нужное? Позвоните <a href="tel:+79094209420">+7 (909) 420‑94‑20</a>: менеджер подберёт материалы по&nbsp;проекту или&nbsp;фотографии помещения.</p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <b>МАРТдекор</b> — интерьерный салон в&nbsp;Ростове-на-Дону.<br>
+        Современные стеновые покрытия, лепнина и&nbsp;декор для&nbsp;интерьера.
+      </div>
+      <div>
+        <b>Разделы</b><br>
+        <a href="catalog.html">Каталог</a><br>
+        <a href="index.html#articles">Советы</a><br>
+        <a href="index.html#contacts">Контакты</a>
+      </div>
+      <div>
+        <b>Связь</b><br>
+        <a href="tel:+79094209420">+7 (909) 420‑94‑20</a><br>
+        <a href="mailto:info@martdecor.ru">info@martdecor.ru</a><br>
+        <a href="https://vk.ru/martdecoronline" target="_blank" rel="noopener">Группа ВКонтакте</a>
+      </div>
+    </div>
+    <div class="fine">Прототип для&nbsp;пресейла, подготовила Студия Юлии Титовой, ноябрь 2026. Данные&nbsp;— из&nbsp;открытых источников клиента (22.11.2026). Фото&nbsp;— заглушки, наличие показано для&nbsp;примера.</div>
+  </div>
+</footer>
+
+<script src="js/typo.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
